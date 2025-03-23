@@ -66,7 +66,7 @@ To install the project, follow these steps:
 To start using the project, run the following command:
 
 ```bash
-npm start
+npm run dev
 ```
 
 This will launch the application, and you can access it via your web browser at `http://localhost:3000`.
@@ -74,6 +74,8 @@ This will launch the application, and you can access it via your web browser at 
 ## API Key
 
 To fetch weather data, you will need an API key from OpenWeatherMap. Sign up at [OpenWeatherMap](https://openweathermap.org/) and replace the placeholder in `src/services/weatherApi.ts` with your API key.
+
+Once you have the API Key, you must add that to your env variables as `NEXT_PUBLIC_OPEN_WEATHERMAP_API_KEY`
 
 ## Contributing
 
